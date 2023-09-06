@@ -41,7 +41,7 @@ const Hero = () => {
       </div>
       <div className="bottom-icons">
         <img className="intro-cube-bottom" src={introCubeBottom} alt="" />
-          <img className="intro-pillar" src={introPillar} alt="" />
+        <img className="intro-pillar" src={introPillar} alt="" />
       </div>
     </div>
   );
