@@ -23,7 +23,6 @@ const MobileNavbar = () => {
     else(setLinkClass("nav-hidden"))
     setBurgerClick(!burgerClick)
   };
-  console.log(linkClass);
   return (
     <div className="mobile-nav">
       <ul className={linkClass}>

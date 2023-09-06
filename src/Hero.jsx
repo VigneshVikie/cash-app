@@ -11,8 +11,8 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="dollar-eye">
-        <img src={dollar} alt="" />
-        <img src={eye} alt="" />
+        <img className="dollar" src={dollar} alt="" />
+        <img className="eye" src={eye} alt="" />
       </div>
       <svg
         className="background-line"
@@ -41,9 +41,7 @@ const Hero = () => {
       </div>
       <div className="bottom-icons">
         <img className="intro-cube-bottom" src={introCubeBottom} alt="" />
-        <div className="pillar-container">
           <img className="intro-pillar" src={introPillar} alt="" />
-        </div>
       </div>
     </div>
   );
