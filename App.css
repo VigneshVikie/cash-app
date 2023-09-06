@@ -12,7 +12,7 @@ body {
   box-sizing: border-box;
   background-color: #000;
   font-family: Agrandir;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 .wrapper {
   display: flex;
