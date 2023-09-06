@@ -159,15 +159,16 @@ a {
   animation-duration: 8s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  margin-bottom: -120px;
-  position: fixed;
-  right: 0;
-  bottom: 0;
+  /* margin-bottom: -120px; */
+  /* position: fixed; */
 }
 
 .pillar-container {
-  /* height: 100%; */
-  background-color: #b6b6b6;
+  /* margin-bottom: -120px; */
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  /* background-color: #b6b6b6; */
 }
 footer {
   position: absolute;
