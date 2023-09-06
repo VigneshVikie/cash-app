@@ -101,7 +101,7 @@ a {
 }
 
 .dollar-eye {
-  width: 1366px;
+  width: 1243px;
   position: absolute;
   top: 0;
   padding-top: 32px;
@@ -172,7 +172,7 @@ a {
 footer {
   position: absolute;
   bottom: 0;
-  width: 1366px;
+  width: 1243px;
   height: 65px;
   display: flex;
   justify-content: center;
