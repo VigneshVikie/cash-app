@@ -12,7 +12,10 @@ body {
   box-sizing: border-box;
   background-color: #000;
   font-family: Agrandir;
-  overflow: hidden;
+  overflow: scroll;
+}
+body::-webkit-scrollbar {
+  display: none;
 }
 .wrapper {
   display: flex;
@@ -157,8 +160,15 @@ a {
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   margin-bottom: -120px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
 }
 
+.pillar-container {
+  /* height: 100%; */
+  background-color: #b6b6b6;
+}
 footer {
   position: absolute;
   bottom: 0;

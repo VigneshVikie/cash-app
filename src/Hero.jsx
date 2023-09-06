@@ -7,7 +7,6 @@ import introStairs from "./assets/intro-stairs.png";
 import introCubeBottom from "./assets/intro-cubes-bottom.png";
 import introPillar from "./assets/intro-pillar.png";
 
-
 const Hero = () => {
   return (
     <div className="hero">
@@ -42,9 +41,10 @@ const Hero = () => {
       </div>
       <div className="bottom-icons">
         <img className="intro-cube-bottom" src={introCubeBottom} alt="" />
-        <img className="intro-pillar" src={introPillar} alt="" />
+        <div className="pillar-container">
+          <img className="intro-pillar" src={introPillar} alt="" />
+        </div>
       </div>
-      
     </div>
   );
 };
