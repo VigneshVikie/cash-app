@@ -187,7 +187,11 @@ button {
   border: 1px solid #fff;
   background: #000;
   color: #fff;
+  transition: transform 0.5s;
   cursor: pointer;
+}
+button:hover {
+  transform: scale(1.03);
 }
 .appstore {
   font-size: 12px;
@@ -897,11 +901,11 @@ button {
   .mobile-nav {
     display: none;
   }
-  .wrapper{
+  .wrapper {
     width: 100%;
     height: 100vh;
   }
-  .main{
+  .main {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -909,29 +913,28 @@ button {
     justify-content: center;
     align-items: center;
   }
-  .dollar-eye{
+  .dollar-eye {
     width: 100%;
   }
-  .top-icons{
+  .top-icons {
     padding-top: 200px;
     width: 100%;
   }
-  .bottom-icons{
+  .bottom-icons {
     width: 100%;
     padding: 0;
-    .intro-cube-bottom{
+    .intro-cube-bottom {
       padding: 0;
     }
-    .intro-pillar{
-      
+    .intro-pillar {
       padding: 0;
     }
   }
-  footer{
+  footer {
     margin: 0;
     width: 90%;
   }
-  .background-line{
+  .background-line {
     width: 100%;
   }
 }
@@ -940,21 +943,21 @@ button {
   .mobile-nav {
     display: none;
   }
-  .main{
+  .main {
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .top-icons{
+  .top-icons {
     padding-top: 400px;
   }
-  .intro-cube-bottom{
+  .intro-cube-bottom {
     position: fixed;
   }
- .intro-pillar{
-  position: fixed;
-  padding-left: 900px;
- }
+  .intro-pillar {
+    position: fixed;
+    padding-left: 900px;
+  }
 }
