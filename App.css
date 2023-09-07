@@ -352,7 +352,302 @@ button {
   z-index: 2;
   margin: 42px 20px 0 0;
 }
-@media (max-width: 320px) {
+@media  (max-width: 320px) {
+  nav {
+    display: none;
+  }
+  .main {
+    width: 100%;
+    height: 100%;
+  }
+  .mobile-nav {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
+  .burger {
+    margin: 20px 20px 0 0;
+  }
+  .nav-visible > li > a {
+    font-size: 16px;
+  }
+  .hero {
+    width: 100%;
+    height: 100vh;
+  }
+  .texts {
+    font-size: 72px;
+    display: flex;
+
+    .cash-text {
+      position: absolute;
+      margin-top: -200px;
+    }
+  }
+  .phone {
+    padding: 0;
+    margin: -50px 0 0 20px;
+  }
+  .phone > img {
+    width: 150px;
+    height: 200px;
+  }
+  .background-line {
+    margin-top: -50px;
+    width: 100%;
+  }
+  .top-icons {
+    width: 100%;
+    .intro-cube {
+      position: absolute;
+      padding: 170px 0 0 40px;
+      width: 40px;
+      height: 40px;
+    }
+    .intro-stairs {
+      width: 60px;
+      height: 60px;
+      padding: 220px 0 0 220px;
+    }
+  }
+  /* .bottom-icons {
+    width: 100%;
+    display: flex;
+    .intro-cube-bottom {
+      width: 60px;
+      height: 60px;
+      position: fixed;
+      padding: 0px 0px 30px 20px;
+    }
+    .intro-pillar {
+      width: 70px;
+      height: 70px;
+      padding-bottom: 2px;
+      padding-left: 230px;
+      position: fixed;
+    }
+  } */
+
+  .bottom-icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .intro-cube-bottom {
+      position: fixed;
+    }
+    .intro-pillar {
+      padding-left: 600px;
+      position: fixed;
+    }
+  }
+  footer {
+    margin-bottom: 0px;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+
+    .btn {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      height: 20%;
+      > button {
+        padding: 15px;
+        width: 130px;
+        height: 20px;
+        font-size: 8px;
+      }
+    }
+    .dropdown {
+      position: absolute;
+      bottom: 0;
+      padding-bottom: 10px;
+
+      > img {
+        height: 20px;
+      }
+    }
+    .right-footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 50%;
+      gap: 10px;
+      .txt {
+        width: 90%;
+        font-size: 10px;
+        font-size: 6px;
+      }
+    }
+  }
+  .dollar-eye {
+    padding-top: 60px;
+    width: 100%;
+    .dollar {
+      padding-left: 20px;
+      animation-name: floating;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+    }
+    .eye {
+      position: absolute;
+      padding: 30px 0 0 200px;
+      animation-name: floating;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+    }
+  }
+}
+@media (max-width: 576px) {
+  nav {
+    display: none;
+  }
+  .main {
+    width: 100%;
+    height: 100%;
+  }
+  .mobile-nav {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
+  .burger {
+    margin: 20px 20px 0 0;
+  }
+  .nav-visible > li > a {
+    font-size: 16px;
+  }
+  .hero {
+    width: 100%;
+    height: 100vh;
+  }
+  .texts {
+    font-size: 72px;
+    display: flex;
+
+    .cash-text {
+      position: absolute;
+      margin-top: -200px;
+    }
+  }
+  .phone {
+    padding: 0;
+    margin: -50px 0 0 20px;
+  }
+  .phone > img {
+    width: 150px;
+    height: 200px;
+  }
+  .background-line {
+    margin-top: -50px;
+    width: 100%;
+  }
+  .top-icons {
+    width: 100%;
+    .intro-cube {
+      /* position: absolute; */
+      padding: 170px 0 0 40px;
+      width: 40px;
+      height: 40px;
+    }
+    .intro-stairs {
+      width: 60px;
+      height: 60px;
+      padding: 230px 0 0 0;
+    }
+  }
+  .bottom-icons {
+    width: 100%;
+    height: 100%;
+    .intro-cube-bottom {
+      width: 60px;
+      height: 60px;
+      position: fixed;
+      padding: 0px 0px 20px 20px;
+    }
+    .intro-pillar {
+      width: 70px;
+      height: 70px;
+      padding-bottom: 0px;
+      padding-left: 280px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: end;
+      position: fixed;
+    }
+  }
+  footer {
+    margin-bottom: 0px;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+
+    .btn {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      height: 20%;
+      > button {
+        padding: 15px;
+        width: 130px;
+        height: 20px;
+        font-size: 8px;
+      }
+    }
+    .dropdown {
+      position: absolute;
+      bottom: 0;
+      padding-bottom: 10px;
+
+      > img {
+        height: 20px;
+      }
+    }
+    .right-footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 50%;
+      gap: 10px;
+      .txt {
+        width: 90%;
+        font-size: 10px;
+        font-size: 6px;
+      }
+    }
+  }
+  .dollar-eye {
+    padding-top: 60px;
+    width: 100%;
+    .dollar {
+      padding-left: 20px;
+      animation-name: floating;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+    }
+    .eye {
+      position: absolute;
+      padding: 30px 0 0 280px;
+      animation-name: floating;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+    }
+  }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
   nav {
     display: none;
   }
@@ -491,27 +786,6 @@ button {
     }
   }
 }
-@media (max-width: 576px) {
-  nav {
-    display: none;
-  }
-  .mobile-nav {
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
-  }
-}
-
-@media (min-width: 577px) and (max-width: 767px) {
-  nav {
-    display: none;
-  }
-  .mobile-nav {
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
-  }
-}
 
 @media (min-width: 768px) and (max-width: 991px) {
   nav {
@@ -521,7 +795,135 @@ button {
     display: flex;
     width: 100%;
     justify-content: flex-end;
-    margin-top: -12px;
+  }
+  .main {
+    width: 100%;
+    height: 100%;
+  }
+
+  .burger {
+    margin: 20px 20px 0 0;
+  }
+  .nav-visible > li > a {
+    font-size: 26px;
+  }
+  .hero {
+    width: 100%;
+    height: 100vh;
+  }
+  .texts {
+    font-size: 180px;
+    display: flex;
+
+    .cash-text {
+      position: absolute;
+      margin-top: -380px;
+    }
+  }
+  .phone {
+    padding: 0;
+    margin: -200px 0 0 80px;
+  }
+  .phone > img {
+    width: 400px;
+    height: 510px;
+  }
+  .background-line {
+    margin-top: -50px;
+    width: 100%;
+  }
+  .top-icons {
+    width: 100%;
+    .intro-cube {
+      position: absolute;
+      padding: 170px 0 0 190px;
+    }
+    .intro-stairs {
+      padding: 520px 0 0 520px;
+    }
+  }
+  /* .bottom-icons {
+    width: 100%;
+    height: 100%;
+    .intro-cube-bottom {
+      width: 150px;
+      height: 150px;
+      position: fixed;
+      padding: 0px 0px 30px 20px;
+    }
+    .intro-pillar {
+      width: 170px;
+      height: 170px;
+      padding-bottom: 2px;
+      padding-left: 630px;
+      position: fixed;
+    }
+  } */
+  .bottom-icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .intro-cube-bottom {
+      position: fixed;
+    }
+    .intro-pillar {
+      padding-left: 600px;
+      position: fixed;
+    }
+  }
+  footer {
+    margin-bottom: 0px;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+
+    .btn {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .dropdown {
+      position: absolute;
+      bottom: 0;
+      padding-bottom: 10px;
+
+      > img {
+        height: 50px;
+      }
+    }
+    .right-footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 50%;
+      gap: 10px;
+      .txt {
+        width: 90%;
+        font-size: 10px;
+      }
+    }
+  }
+  .dollar-eye {
+    padding-top: 90px;
+    width: 100%;
+    .dollar {
+      padding-left: 20px;
+      animation-name: floating;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+    }
+    .eye {
+      padding: 30px 0 0 200px;
+      animation-name: floating;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+    }
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
