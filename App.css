@@ -352,7 +352,7 @@ button {
   z-index: 2;
   margin: 42px 20px 0 0;
 }
-@media  (max-width: 320px) {
+@media (max-width: 320px) {
   nav {
     display: none;
   }
@@ -410,7 +410,7 @@ button {
       padding: 220px 0 0 220px;
     }
   }
-  /* .bottom-icons {
+  .bottom-icons {
     width: 100%;
     display: flex;
     .intro-cube-bottom {
@@ -426,20 +426,8 @@ button {
       padding-left: 230px;
       position: fixed;
     }
-  } */
-
-  .bottom-icons {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    .intro-cube-bottom {
-      position: fixed;
-    }
-    .intro-pillar {
-      padding-left: 600px;
-      position: fixed;
-    }
   }
+
   footer {
     margin-bottom: 0px;
     width: 100%;
@@ -562,23 +550,22 @@ button {
       padding: 230px 0 0 0;
     }
   }
+
   .bottom-icons {
     width: 100%;
-    height: 100%;
+
+    display: flex;
     .intro-cube-bottom {
-      width: 60px;
-      height: 60px;
+      width: 100px;
+      height: 100px;
+      padding-bottom: 30px;
+      padding-left: 50px;
       position: fixed;
-      padding: 0px 0px 20px 20px;
     }
     .intro-pillar {
-      width: 70px;
-      height: 70px;
-      padding-bottom: 0px;
-      padding-left: 280px;
-      display: flex;
-      justify-content: flex-end;
-      align-items: end;
+      width: 140px;
+      height: 140px;
+      padding-left: 360px;
       position: fixed;
     }
   }
@@ -608,7 +595,7 @@ button {
       padding-bottom: 10px;
 
       > img {
-        height: 20px;
+        height: 40px;
       }
     }
     .right-footer {
@@ -637,7 +624,6 @@ button {
       animation-timing-function: ease-in-out;
     }
     .eye {
-      position: absolute;
       padding: 30px 0 0 280px;
       animation-name: floating;
       animation-duration: 3s;
@@ -812,21 +798,21 @@ button {
     height: 100vh;
   }
   .texts {
-    font-size: 180px;
+    font-size: 120px;
     display: flex;
 
     .cash-text {
       position: absolute;
-      margin-top: -380px;
+      margin-top: -300px;
     }
   }
   .phone {
     padding: 0;
-    margin: -200px 0 0 80px;
+    margin: -100px 0 0 80px;
   }
   .phone > img {
-    width: 400px;
-    height: 510px;
+    width: 300px;
+    height: 410px;
   }
   .background-line {
     margin-top: -50px;
@@ -834,47 +820,30 @@ button {
   }
   .top-icons {
     width: 100%;
-    .intro-cube {
-      position: absolute;
-      padding: 170px 0 0 190px;
-    }
-    .intro-stairs {
-      padding: 520px 0 0 520px;
-    }
-  }
-  /* .bottom-icons {
-    width: 100%;
-    height: 100%;
-    .intro-cube-bottom {
-      width: 150px;
-      height: 150px;
-      position: fixed;
-      padding: 0px 0px 30px 20px;
-    }
-    .intro-pillar {
-      width: 170px;
-      height: 170px;
-      padding-bottom: 2px;
-      padding-left: 630px;
-      position: fixed;
-    }
-  } */
-  .bottom-icons {
-    width: 100%;
     display: flex;
     justify-content: space-between;
+    padding-top: 200px;
+    .intro-cube {
+      padding: 170px 0 0 190px;
+    }
+  }
+
+  .bottom-icons {
+    margin: 0;
+    width: 100%;
+    display: flex;
     .intro-cube-bottom {
       position: fixed;
     }
     .intro-pillar {
-      padding-left: 600px;
+      padding-left: 400px;
       position: fixed;
     }
   }
   footer {
-    margin-bottom: 0px;
+    margin: 0;
     width: 100%;
-    height: 40%;
+    height: 35%;
     display: flex;
     flex-direction: column;
 
@@ -890,7 +859,7 @@ button {
       padding-bottom: 10px;
 
       > img {
-        height: 50px;
+        height: 40px;
       }
     }
     .right-footer {
@@ -930,10 +899,64 @@ button {
   .mobile-nav {
     display: none;
   }
+  .wrapper{
+    width: 100%;
+    height: 100vh;
+  }
+  .main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .dollar-eye{
+    width: 100%;
+  }
+  .top-icons{
+    padding-top: 200px;
+    width: 100%;
+  }
+  .bottom-icons{
+    width: 100%;
+    padding: 0;
+    .intro-cube-bottom{
+      padding: 0;
+    }
+    .intro-pillar{
+      
+      padding: 0;
+    }
+  }
+  footer{
+    margin: 0;
+    width: 90%;
+  }
+  .background-line{
+    width: 100%;
+  }
 }
 
 @media (min-width: 1440px) {
   .mobile-nav {
     display: none;
   }
+  .main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .top-icons{
+    padding-top: 400px;
+  }
+  .intro-cube-bottom{
+    position: fixed;
+  }
+ .intro-pillar{
+  position: fixed;
+  padding-left: 900px;
+ }
 }
